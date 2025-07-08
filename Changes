@@ -1,0 +1,10 @@
+Revision history for Perl extension Bio::Frescobi.
+
+0.01  Tue Jan 19 18:01:43 2010
+	- original version; created by h2xs 1.23 with options
+		--omit-autoload --omit-XS --name=Bio::Frescobi --compat-version=5.8.0
+
+0.04  Thu Oct  6 13:14:00 2011
+	- Documentation and test case updates.
+
+	

@@ -1,0 +1,26 @@
+--- #YAML:1.0
+name:               Bio-Frescobi
+version:            0.28
+abstract:           Free Relational Eclectic System for the Collection Of Biological Information
+author:
+    - Robert Bruccoleri <bruc@acm.org>
+license:            unknown
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Carp:                 1
+    CGI:                  3
+    Digest::MD5:          2.36
+    SHA:                  2.01
+    Text::LevenshteinXS:  0.031
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.55_02
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
