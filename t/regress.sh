@@ -51,9 +51,7 @@ cp /dev/null annotator.test.${driver}.log
 cp /dev/null seq.test.${driver}.log
 cp /dev/null formatdb.test.${driver}.log
 
-cd ..
-scripts=$(pwd)/blib/script
-cd t
+scripts=$BUILD_PREFIX/frescobi/scripts
 export PATH=$scripts:$PATH
 export PERL5LIB=../blib/lib/${PERL5LIB:+:${PERL5LIB}}
 
