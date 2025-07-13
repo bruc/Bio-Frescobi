@@ -76,9 +76,15 @@ COPYRIGHT AND LICENCE
 
 Copyright (C) 2025 by Robert Bruccoleri
 
-This library is free software; you can redistribute it and/or modify
+This library is free software; you can use it, bredistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.8 or,
 at your option, any later version of Perl 5 you may have available.
+
+NO WARRANTY
+
+THIS LIBRARY IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
 -------
 
