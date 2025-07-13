@@ -302,7 +302,8 @@ sub max {
 =item C<max($arg1[, $arg2]...)>
 
 Find the numerical maximum of all the arguments and return it. If
-there are no arguments, C<undef> will be returned.
+there are no arguments, C<undef> will be returned. All arguments must
+be numeric.
 
 =cut
 

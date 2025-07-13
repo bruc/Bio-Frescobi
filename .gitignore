@@ -12,6 +12,9 @@ blib/
 pm_to_blib
 z
 *#
+t/*.log
+!t/t/ref/regress.Pg.ref.log
+!t/ref/regress.SQLite.ref.log
 t/formatdb.log
 t/annotator.test.log*
 t/assembler.test.log*
@@ -20,8 +23,7 @@ t/error.log*
 t/filter.test.log*
 t/load.test.log*
 t/move_annotation*.log
-t/regress.log.[1-9]*
-t/regress_novartis.log.*
+t/regress.*.log.[1-9]*
 t/seq.test.log
 t/sample_pe1.*
 t/count_fastq.[1-9]*.inp
